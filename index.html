@@ -16,7 +16,11 @@
 
       <div id="newtask">
         <input id="task-input" type="text" placeholder="Add a task" />
-        <button id="push" type="button">Add</button>
+        <div>
+          <label for="daytime">Add a date and time for the task</label>
+          <input type="datetime-local" id="daytime" name="daytime" />
+          <button id="push" type="button">Add</button>
+        </div>
       </div>
 
       <div id="list" class="tasks"></div>
